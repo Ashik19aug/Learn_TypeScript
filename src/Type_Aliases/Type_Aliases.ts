@@ -9,7 +9,7 @@ let person: Person = {name: "John", age: 25, isActive: true,};
 console.log('Person : ', person);
 
 // Union type alias
-type Result = number | string;
+type Result = number | string; // Result type is a union type
 let value: Result = 42;
 value = "hello";
 console.log("Result Type value : ", value);
